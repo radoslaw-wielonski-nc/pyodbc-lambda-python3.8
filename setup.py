@@ -7,7 +7,6 @@ with open("README.md", "r") as fh:
 setuptools.setup(
      name='pyodbc-lambda-python3.8',  
      version='0.1',
-     scripts=['pyodbc-lambda-python3.8'] ,
      author="Radoslaw Wielonski",
      author_email="radoslaw.wielonski@nordcloud.com",
      description="Pre-built package of pyodbc and ODBC 17 SQL Server driver",
