@@ -1,9 +1,16 @@
-apiVersion: firstver
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: demo
   description: pyodbc package
+  tags:
+    - python
+    - package
+  links:
+    - url: https://example.com/user
+      title: Examples Users
+      icon: user
 spec:
   type: package
-  owner: radek@example.com
+  owner: team-a
   lifecycle: experimental
