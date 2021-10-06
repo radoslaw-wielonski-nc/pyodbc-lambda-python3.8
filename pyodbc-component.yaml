@@ -1,0 +1,9 @@
+apiVersion: 1.0
+kind: Component
+metadata:
+  name: demo
+  description: pyodbc package
+spec:
+  type: package
+  owner: radek@example.com
+  lifecycle: experimental
