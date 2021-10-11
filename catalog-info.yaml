@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: demo
-  description: pyodbc package
+  name: testdiscovery1
+  description: test discovery
   tags:
     - python
     - package
