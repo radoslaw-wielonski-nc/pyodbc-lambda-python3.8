@@ -5,7 +5,7 @@ metadata:
   description: test discovery
   tags:
     - python
-    - package
+    - private
   links:
     - url: https://example.com/user
       title: Examples Users
