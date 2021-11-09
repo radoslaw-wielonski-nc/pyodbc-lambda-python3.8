@@ -1,16 +1,19 @@
+
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: API
 metadata:
-  name: testdiscovery1
-  description: test discovery
+  name: pyodbc
+  description: The Spotify web API
   tags:
-    - python
-    - private
+    - spotify
+    - public
   links:
-    - url: https://example.com/user
-      title: Examples Users
-      icon: user
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
+      icon: dashboard
 spec:
-  type: package
+  type: openapi
+  lifecycle: production
   owner: team-a
-  lifecycle: experimental
+  definition:
+    $text: https://github.com/APIs-guru/openapi-directory/blob/dab6854d4d599aafb0eb36e6c7ae1fe0c37509b7/APIs/spotify.com/2021.4.2/openapi.yaml
